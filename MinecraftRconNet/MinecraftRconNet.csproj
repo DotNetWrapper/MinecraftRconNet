@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<Description>This library allows you to connect to Minecraft servers using the RCON protocol. RCON (Remote Console) enables you to send commands and manage your Minecraft server remotely.</Description>
+	<Copyright>Copyright (c) 2023, liebki - Original: Copyright (c) 2015, Thorsten Sommer</Copyright>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<PackageTags>minecraft, RCON, connection, remote control, remote, minecraft server</PackageTags>
+	<PackageReleaseNotes>Initial push of the code with some minor changes, mostly to provide the library for .net core and not only .net framework like the original code.</PackageReleaseNotes>
+	<PackageLicenseFile>LICENSE</PackageLicenseFile>
+	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	<Title>MinecraftRconNet</Title>
+	<FileVersion></FileVersion>
+	<AssemblyVersion></AssemblyVersion>
+	<Version>1.0.3</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
