@@ -16,13 +16,16 @@ To use MinecraftRconNet in your C# project, follow these steps:
 ```csharp
 using MinecraftRconNet;
 
+string response = string.Empty;
+
 using (RconClient rcon = RconClient.INSTANCE)
 
 {
     rcon.SetupStream(host, port, password);
-    string response = rcon.SendMessage(RconMessageType.Command, command);
+    response = rcon.SendMessage(RconMessageType.Command, command);
+    response = response.RemoveColorCodes();
 
-    // Process the response as needed
+    // Continue to process the response as needed
 }
 ```
 

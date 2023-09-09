@@ -2,10 +2,8 @@
 
 namespace MinecraftRconNet
 {
-    /// <summary>
-    /// Provides extension methods for string manipulation.
-    /// </summary>
-    internal static class Tools
+
+    public static class Tools
     {
 
         private static readonly Dictionary<string, string> ColorCodeMap = new()

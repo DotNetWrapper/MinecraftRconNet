@@ -4,9 +4,7 @@ using System.Linq;
 
 namespace MinecraftRconNet
 {
-    /// <summary>
-    /// Represents a class for reading RCON messages.
-    /// </summary>
+
     public class RconReader : IDisposable
     {
         public static readonly RconReader Instance = new RconReader();

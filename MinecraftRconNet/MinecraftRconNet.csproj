@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -9,13 +9,14 @@
 	<Copyright>Copyright (c) 2023, liebki - Original: Copyright (c) 2015, Thorsten Sommer</Copyright>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
 	<PackageTags>minecraft, RCON, connection, remote control, remote, minecraft server</PackageTags>
-	<PackageReleaseNotes>Initial push of the code with some minor changes, mostly to provide the library for .net core and not only .net framework like the original code.</PackageReleaseNotes>
+	<PackageReleaseNotes>Fixed the access modifier of the Tools class, because RemoveColorCodes() was not accessible.</PackageReleaseNotes>
 	<PackageLicenseFile>LICENSE</PackageLicenseFile>
 	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 	<Title>MinecraftRconNet</Title>
 	<FileVersion></FileVersion>
 	<AssemblyVersion></AssemblyVersion>
-	<Version>1.0.3</Version>
+	<Version>1.0.4</Version>
+	<RepositoryUrl>https://github.com/DotNetWrapper/MinecraftRconNet</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

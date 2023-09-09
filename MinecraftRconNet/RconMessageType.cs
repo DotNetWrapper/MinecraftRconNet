@@ -2,9 +2,7 @@
 
 namespace MinecraftRconNet
 {
-    /// <summary>
-    /// Represents an RCON message type.
-    /// </summary>
+
     public sealed class RconMessageType
     {
         public int Value { get; }

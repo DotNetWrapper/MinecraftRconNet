@@ -2,9 +2,7 @@
 
 namespace MinecraftRconNet
 {
-    /// <summary>
-    /// Represents an RCON message answer.
-    /// </summary>
+
     public sealed class RconMessageAnswer
     {
         private readonly bool success;
